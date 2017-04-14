@@ -31,7 +31,7 @@ def background_init(screen, fonts):
     background = background.convert()
     background.fill((255,255,255))
 
-    title = createText("PiFBA Configuracao de Joystick", fonts[2])
+    title = createText("Retroarch Configuracao de Joystick", fonts[2])
 
 
     background.blit(title, (10,10))
