@@ -55,8 +55,8 @@ def getEvents(joystick):
     return 0
 
 def salvarCfg(joystick, botoes, cfg):
-    # arquivo_filename = "/opt/retropie/configs/fba/fba2x.cfg"
-    arquivo_filename = "/home/rafael/retroarch.cfg"
+    arquivo_filename = "/opt/retropie/configs/neogeo/retroarch.cfg"
+    # arquivo_filename = "/home/rafael/retroarch.cfg"
     btn_p1 = ['input_player1_a_btn', 'input_player1_x_btn', 'input_player1_b_btn', 'input_player1_y_btn', 'input_player1_l_btn', 'input_player1_r_btn', 'input_player1_start_btn', 'input_player1_select_btn']
     btn_p2 = ['input_player2_a_btn', 'input_player2_x_btn', 'input_player2_b_btn', 'input_player2_y_btn', 'input_player2_l_btn', 'input_player2_r_btn', 'input_player2_start_btn', 'input_player2_select_btn']
     
