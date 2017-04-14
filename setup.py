@@ -7,4 +7,5 @@ if os.path.exists('retroarch.cfg'):
 	shutil.copy2('retroarch.cfg', '/opt/retropie/configs/neogeo/retroarch.cfg')
 
 if os.path.exists('Retroarch Config Input.rp'):
+	os.system('chmod +x Retroarch\ Config\ Input.rp')
 	shutil.copy2('Retroarch Config Input.rp', '/home/pi/Desktop/RetroPie/retropiemenu/')
